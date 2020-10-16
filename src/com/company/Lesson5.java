@@ -37,6 +37,25 @@ public class Lesson5 {
 //        int i[] = new int[8]; // обявление пустого массива, размер 8 ячеек памяти
 
 
+ /*       for (int i1 = 0; i1 < i.length / 2; i1++) {
+
+            int temp = i[i1];
+            i[i1] = i[i.length - 1 - i1];
+            i[i.length - 1 - i1] = temp;
+        }
+
+        System.out.println(Arrays.toString((i)));*/
+
+       /* int []newi = new int[i.length];
+        for (int i1 = 0; i1 < i.length; i1++) {
+
+            newi[i1] = i[i.length - 1 - i1];
+
+        }
+
+
+        System.out.println(Arrays.toString((newi)));
+*/
 
     }
 
@@ -46,6 +65,8 @@ public class Lesson5 {
 //
 //        return Integer.parseInt(split[0]) + Integer.parseInt(split[1]) == Integer.parseInt(split[2]) + Integer.parseInt(split[3]);
 //    }
+
+
 
 
 
